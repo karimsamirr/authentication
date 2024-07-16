@@ -1,0 +1,70 @@
+/* Footer.css */
+
+.container-fluid {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.col_footer {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.UserInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.DetailedUserInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.DetailedUserInfo svg {
+  margin-right: 10px;
+}
+
+.numbers {
+  font-size: 16px;
+  color: #333;
+}
+
+.conbtn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.conbtn:hover {
+  background-color: #0056b3;
+}
+
+.Platformes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Platformes div {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.CopyRight {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}

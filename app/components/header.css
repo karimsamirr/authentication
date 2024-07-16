@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light grey background */
+    border-bottom: 2px solid #e9ecef; /* Slightly darker grey for the bottom border */
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-left a,
+.nav-right a {
+    text-decoration: none;
+    color: #000; /* Black color */
+    font-weight: bold;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    color: #808080; /* Gray on hover */
+}
+
+.user-button {
+    display: flex;
+    align-items: center;
+}
+
+.user-button > * {
+    margin-left: 10px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right > div {
+    display: flex;
+    gap: 10px;
+}
